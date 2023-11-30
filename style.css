@@ -1,0 +1,43 @@
+*{
+    font-family: 'Share Tech Mono',  monospace;
+}
+
+#board, .boardInfo{
+    margin: auto;
+    max-width: 700px;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo{
+    font-size: 25px;
+}
+
+#start{
+    background-color: aquamarine;
+    border: none;
+    color: #fff;
+}
+
+#scoreBoard{
+    display: inline-flex;
+}
+
+.square{
+    aspect-ratio: 1;
+}
+
+.emptySquare{
+    background-color: bisque;
+}
+
+.snakeSquare{
+    background-color: blue;
+}
+.foodSquare {
+    background-color: #55e7e7;
+    border: 1px solid #000;
+}
